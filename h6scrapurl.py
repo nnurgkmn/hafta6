@@ -26,6 +26,6 @@ haberler = [
     "https://www.milligazete.com.tr/arsiv/2025-03-22",
 ]
 
-with open('buseliko.txt', 'a', encoding="utf-8") as file:
+with open('nurko.txt', 'a', encoding="utf-8") as file:
     for sayfa_url in haberler:
         abc(sayfa_url, file)
